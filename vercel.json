@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "lexai-legal-assistant",
+  "builds": [{ "src": "*.html", "use": "@vercel/static" }],
+  "routes": [{ "src": "/(.*)", "dest": "/$1" }]
+}
